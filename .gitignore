@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+output/
+onnx/
+*.onnx
+*.engine
+*.pth
+!weights/XPLNetNew_160000.pth
+!weights/LDesc_160000.pth
