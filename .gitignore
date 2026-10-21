@@ -7,5 +7,5 @@ onnx/
 *.onnx
 *.engine
 *.pth
-!weights/XPLNetNew_160000.pth
-!weights/LDesc_160000.pth
+!weights/xplnet.pth
+!weights/ldesc.pth

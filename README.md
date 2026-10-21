@@ -30,8 +30,8 @@ Only these two checkpoints are distributed:
 
 | File | Contents |
 | --- | --- |
-| `weights/XPLNetNew_160000.pth` | XPLNet backbone and heads (`xplnet`), line verification (`verify_coarse`), and iteration metadata |
-| `weights/LDesc_160000.pth` | Learned line descriptor (`line_desc`) and iteration metadata |
+| `weights/xplnet.pth` | XPLNet backbone and heads (`xplnet`), line verification (`verify_coarse`), and iteration metadata |
+| `weights/ldesc.pth` | Learned line descriptor (`line_desc`) and iteration metadata |
 
 Both checkpoints are from iteration 160000. They are stored directly in Git
 and do not require Git LFS. Integrity hashes are in [weights/SHA256SUMS](weights/SHA256SUMS).

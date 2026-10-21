@@ -14,8 +14,8 @@ import numpy as np
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_WEIGHTS = ROOT / "weights/XPLNetNew_160000.pth"
-DEFAULT_LINE_WEIGHTS = ROOT / "weights/LDesc_160000.pth"
+DEFAULT_WEIGHTS = ROOT / "weights/xplnet.pth"
+DEFAULT_LINE_WEIGHTS = ROOT / "weights/ldesc.pth"
 
 
 class XPLDetector(nn.Module):

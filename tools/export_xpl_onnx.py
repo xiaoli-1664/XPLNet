@@ -20,11 +20,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         '--weights', type=Path,
-        default=ROOT / 'weights/XPLNetNew_160000.pth',
+        default=ROOT / 'weights/xplnet.pth',
         help='XPLNet checkpoint containing xplnet and verify_coarse weights.')
     parser.add_argument(
         '--line-desc-weights', type=Path,
-        default=ROOT / 'weights/LDesc_160000.pth',
+        default=ROOT / 'weights/ldesc.pth',
         help='LineDescription checkpoint containing line_desc weights.')
     parser.add_argument(
         '--output-dir', type=Path, default=ROOT / 'onnx',
